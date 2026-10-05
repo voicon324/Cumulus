@@ -1,0 +1,20 @@
+{
+  "name": "cumulus",
+  "version": "0.2.1",
+  "description": "Project memory and continuous capability optimization for AI coding agents.",
+  "license": "MIT",
+  "repository": "https://github.com/voicon324/Cumulus",
+  "skill": "skills/cumulus/SKILL.md",
+  "keywords": [
+    "agent-skills",
+    "coding-agent",
+    "project-memory",
+    "self-improving-agent",
+    "capability-optimization",
+    "codex",
+    "claude-code",
+    "cursor",
+    "mcp",
+    "developer-tools"
+  ]
+}
