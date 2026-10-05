@@ -1,4 +1,4 @@
-# Cumulus
+# Cumulus — Project Memory & Capability Optimization for Coding Agents
 
 **Your coding agent grows with your project.**
 
