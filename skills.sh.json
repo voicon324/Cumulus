@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Coding Agent Optimization",
+      "description": "Project memory, capability discovery and continuous improvement for coding agents.",
+      "skills": ["cumulus"]
+    }
+  ]
+}
