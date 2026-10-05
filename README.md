@@ -4,6 +4,10 @@
 
 Project-aware capability optimization and memory for coding agents.
 
+<p align="center">
+  <img src="assets/cumulus-overview.svg" alt="Cumulus overview: project memory, capability signals, skills and tools, and the continuous improvement loop" width="100%" />
+</p>
+
 Cumulus installs inside a repository, builds a lightweight project model, gives coding agents durable project memory, detects repeated capability gaps, and helps them discover better skills, tools, and workflows as the project evolves.
 
 It is designed to be something you add **inside the repo you are about to work on**, not another global developer tool.
