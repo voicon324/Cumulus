@@ -31,14 +31,9 @@ npx skills add voicon324/Cumulus --skill cumulus
 
 Canonical skill: [`skills/cumulus/SKILL.md`](skills/cumulus/SKILL.md).
 
-The full project-local runtime below adds persistent state, task evidence, capability-debt detection, reviews and improvement trials.
+The full project-local runtime adds persistent state, task evidence, capability-debt detection, reviews and improvement trials. It is designed to live **inside the repo you are about to work on**, not as another global developer tool.
 
-
-Cumulus installs inside a repository, builds a lightweight project model, gives coding agents durable project memory, detects repeated capability gaps, and helps them discover better skills, tools, and workflows as the project evolves.
-
-It is designed to be something you add **inside the repo you are about to work on**, not another global developer tool.
-
-## Install in a repository
+## Install the full runtime in a repository
 
 ```bash
 cd your-project
