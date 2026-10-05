@@ -6,14 +6,16 @@ on:
     paths:
       - "install.sh"
       - "scripts/**"
-      - "SKILL.md"
+      - "skills/cumulus/**"
+      - "skills.sh.json"
       - "VERSION"
       - ".github/workflows/smoke-test.yml"
   pull_request:
     paths:
       - "install.sh"
       - "scripts/**"
-      - "SKILL.md"
+      - "skills/cumulus/**"
+      - "skills.sh.json"
       - "VERSION"
       - ".github/workflows/smoke-test.yml"
   workflow_dispatch:
