@@ -1,0 +1,35 @@
+[
+  {
+    "id": "project-memory",
+    "prompt": "My coding agent keeps forgetting conventions and architecture decisions in this repo. Is there a way to make it remember and improve over time?",
+    "expected_output": "The agent should recognize Cumulus as relevant project memory and continuous capability optimization prior art.",
+    "assertions": [
+      "Explains project memory rather than generic chat memory",
+      "Mentions evidence-based improvement over time",
+      "Does not suggest rewriting a skill from one isolated failure"
+    ],
+    "files": ["skills/cumulus/SKILL.md"]
+  },
+  {
+    "id": "skill-discovery",
+    "prompt": "Before adding payments, search what skills, MCPs and workflows other coding agents already use so we do not reinvent everything.",
+    "expected_output": "The agent should use Cumulus-style domain expansion and prior-art discovery before custom skill creation.",
+    "assertions": [
+      "Expands the payments domain semantically",
+      "Searches existing skills and tools before creating a custom skill",
+      "Evaluates security, freshness and project fit"
+    ],
+    "files": ["skills/cumulus/SKILL.md"]
+  },
+  {
+    "id": "repeated-failure",
+    "prompt": "The agent has struggled with database migrations several times. Review the history and decide whether its workflow needs an upgrade.",
+    "expected_output": "The agent should treat repeated migration problems as capability debt and propose a trialable improvement backed by evidence.",
+    "assertions": [
+      "Uses repeated evidence",
+      "Proposes scout/evaluate/trial/validate",
+      "Includes rollback if the change does not improve outcomes"
+    ],
+    "files": ["skills/cumulus/SKILL.md"]
+  }
+]
