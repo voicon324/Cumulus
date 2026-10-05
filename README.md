@@ -164,6 +164,7 @@ These intents are encoded directly in the Agent Skill metadata so coding agents 
 - [`skills.sh.json`](skills.sh.json) — skills.sh grouping metadata
 - [`llms.txt`](llms.txt) — concise machine-readable product description and canonical links
 - [`skills/cumulus/evals/evals.json`](skills/cumulus/evals/evals.json) — trigger/evaluation examples
+- [`docs/use-cases.md`](docs/use-cases.md) — concrete project-memory and capability-optimization scenarios
 
 Useful semantic search phrases:
 
