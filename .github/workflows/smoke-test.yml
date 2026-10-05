@@ -36,3 +36,7 @@ jobs:
         run: python3 --version
       - name: Run smoke test
         run: bash scripts/smoke-test.sh
+      - name: Verify Agent Skills discovery
+        run: |
+          npx -y skills add voicon324/Cumulus --list | tee /tmp/cumulus-skills.txt
+          grep -i "cumulus" /tmp/cumulus-skills.txt
