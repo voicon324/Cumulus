@@ -89,7 +89,7 @@ rm -rf "$RUNTIME_DIR"
 mkdir -p "$RUNTIME_DIR/scripts" "$RUNTIME_DIR/references" "$RUNTIME_DIR/assets"
 
 cp "$SOURCE_DIR/scripts/cumulus.py" "$RUNTIME_DIR/scripts/cumulus.py"
-cp "$SOURCE_DIR/SKILL.md" "$RUNTIME_DIR/SKILL.md"
+cp "$SOURCE_DIR/skills/cumulus/SKILL.md" "$RUNTIME_DIR/SKILL.md"
 cp "$SOURCE_DIR/VERSION" "$RUNTIME_DIR/VERSION"
 cp "$SOURCE_DIR/CHANGELOG.md" "$RUNTIME_DIR/CHANGELOG.md"
 if [[ -d "$SOURCE_DIR/references" ]]; then cp -R "$SOURCE_DIR/references/." "$RUNTIME_DIR/references/"; fi
