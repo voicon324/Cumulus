@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cumulus — Your coding agent grows with your project</title>
+  <desc id="desc">Infographic introducing Cumulus project memory, capability signals, skills and tools, and the continuous improvement loop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040b17"/>
+      <stop offset="0.52" stop-color="#081426"/>
+      <stop offset="1" stop-color="#0b1730"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2bd4ff"/>
+      <stop offset="0.55" stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#9b6cff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38d7ff"/>
+      <stop offset="1" stop-color="#8d6bff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1360" cy="130" r="220" fill="#16447a" opacity=".18" filter="url(#glow)"/>
+  <circle cx="170" cy="790" r="190" fill="#46206b" opacity=".16" filter="url(#glow)"/>
+
+  <!-- cloud mark -->
+  <g transform="translate(70 70)">
+    <path d="M55 92c-30 0-55-20-55-47 0-25 21-45 49-47C61-28 88-45 120-45c39 0 72 25 79 59 7-3 15-5 24-5 32 0 57 22 57 50 0 29-26 52-60 52H55z" fill="url(#cloud)" transform="translate(0 45)"/>
+  </g>
+
+  <text x="370" y="150" fill="#f7fbff" font-family="Inter,Arial,sans-serif" font-size="84" font-weight="900" letter-spacing="3">CUMULUS</text>
+  <text x="72" y="245" fill="#f4f8ff" font-family="Inter,Arial,sans-serif" font-size="44" font-weight="800">
+    Your coding agent <tspan fill="url(#accent)">grows</tspan> with your project.
+  </text>
+  <text x="72" y="298" fill="#9fb0ca" font-family="Inter,Arial,sans-serif" font-size="27">
+    Project-aware memory and continuous capability optimization for coding agents.
+  </text>
+
+  <!-- feature cards -->
+  <g font-family="Inter,Arial,sans-serif">
+    <g transform="translate(72 360)">
+      <rect width="450" height="150" rx="24" fill="#0a172b" stroke="#244365"/>
+      <circle cx="58" cy="55" r="28" fill="none" stroke="#48baff" stroke-width="4"/>
+      <path d="M44 48h28M44 57h28M44 66h28" stroke="#48baff" stroke-width="4" stroke-linecap="round"/>
+      <text x="105" y="53" fill="#f7fbff" font-size="30" font-weight="800">Project memory</text>
+      <text x="105" y="90" fill="#9fb0ca" font-size="21">Remembers code, context</text>
+      <text x="105" y="120" fill="#9fb0ca" font-size="21">and durable decisions.</text>
+    </g>
+    <g transform="translate(575 360)">
+      <rect width="450" height="150" rx="24" fill="#0a172b" stroke="#244365"/>
+      <circle cx="58" cy="55" r="28" fill="none" stroke="#8f70ff" stroke-width="4"/>
+      <path d="M44 68V52M57 68V42M70 68V31" stroke="#8f70ff" stroke-width="5" stroke-linecap="round"/>
+      <text x="105" y="53" fill="#f7fbff" font-size="30" font-weight="800">Capability signals</text>
+      <text x="105" y="90" fill="#9fb0ca" font-size="21">Detects recurring gaps from</text>
+      <text x="105" y="120" fill="#9fb0ca" font-size="21">real project activity.</text>
+    </g>
+    <g transform="translate(1078 360)">
+      <rect width="450" height="150" rx="24" fill="#0a172b" stroke="#244365"/>
+      <circle cx="58" cy="55" r="28" fill="none" stroke="#51e3b5" stroke-width="4"/>
+      <path d="M47 44l11-7 11 7v14l-11 7-11-7z" fill="none" stroke="#51e3b5" stroke-width="3"/>
+      <text x="105" y="53" fill="#f7fbff" font-size="30" font-weight="800">Skills &amp; tools</text>
+      <text x="105" y="90" fill="#9fb0ca" font-size="21">Scouts, evaluates and adapts</text>
+      <text x="105" y="120" fill="#9fb0ca" font-size="21">capabilities to the repo.</text>
+    </g>
+  </g>
+
+  <!-- continuous loop -->
+  <text x="72" y="575" fill="#8fa5c6" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="5">CONTINUOUS IMPROVEMENT LOOP</text>
+  <line x1="500" y1="567" x2="1528" y2="567" stroke="#29405f"/>
+  <g font-family="Inter,Arial,sans-serif" font-weight="800" font-size="19" text-anchor="middle">
+    <g transform="translate(150 650)"><circle r="45" fill="#071629" stroke="#3d9fff" stroke-width="3"/><text y="7" fill="#55b5ff">WORK</text></g>
+    <text x="255" y="657" fill="#5d83b4" font-size="34">→</text>
+    <g transform="translate(360 650)"><circle r="45" fill="#071629" stroke="#8668ff" stroke-width="3"/><text y="7" fill="#9f86ff">OBSERVE</text></g>
+    <text x="465" y="657" fill="#5d83b4" font-size="34">→</text>
+    <g transform="translate(570 650)"><circle r="45" fill="#071629" stroke="#bc70ff" stroke-width="3"/><text y="-2" fill="#c987ff">DETECT</text><text y="20" fill="#c987ff">GAPS</text></g>
+    <text x="675" y="657" fill="#5d83b4" font-size="34">→</text>
+    <g transform="translate(780 650)"><circle r="45" fill="#071629" stroke="#3fd8e8" stroke-width="3"/><text y="7" fill="#5de6f3">SCOUT</text></g>
+    <text x="885" y="657" fill="#5d83b4" font-size="34">→</text>
+    <g transform="translate(990 650)"><circle r="45" fill="#071629" stroke="#4be8b2" stroke-width="3"/><text y="7" fill="#64f0c1">IMPROVE</text></g>
+    <text x="1095" y="657" fill="#5d83b4" font-size="34">→</text>
+    <g transform="translate(1215 650)"><circle r="45" fill="#071629" stroke="#5ba5ff" stroke-width="3"/><text y="7" fill="#73b5ff">VALIDATE</text></g>
+  </g>
+
+  <!-- terminal install -->
+  <rect x="72" y="745" width="980" height="105" rx="18" fill="#050e1b" stroke="#28415f"/>
+  <circle cx="100" cy="770" r="7" fill="#ff6c6c"/><circle cx="124" cy="770" r="7" fill="#ffd269"/><circle cx="148" cy="770" r="7" fill="#58df9b"/>
+  <text x="98" y="813" fill="#52e99f" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="19">$ cd your-project</text>
+  <text x="98" y="840" fill="#63dfff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18">$ curl -fsSL https://raw.githubusercontent.com/voicon324/Cumulus/main/install.sh | bash</text>
+
+  <text x="1100" y="785" fill="#f5f8ff" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="800">Project-local.</text>
+  <text x="1100" y="817" fill="#9fb0ca" font-family="Inter,Arial,sans-serif" font-size="21">No sudo. No global install.</text>
+  <text x="1100" y="855" fill="#65c8ff" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800">github.com/voicon324/Cumulus</text>
+</svg>
