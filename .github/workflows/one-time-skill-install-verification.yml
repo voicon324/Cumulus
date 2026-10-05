@@ -1,0 +1,22 @@
+name: one-time-skill-install-verification
+
+on:
+  push:
+    paths:
+      - ".github/workflows/one-time-skill-install-verification.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Cumulus as an Agent Skill
+        run: |
+          mkdir -p /tmp/cumulus-skill-test
+          cd /tmp/cumulus-skill-test
+          git init -q
+          npx -y skills add voicon324/Cumulus --skill cumulus --agent codex --yes --copy
+          find . -maxdepth 5 -type f | sort
+          test -f .agents/skills/cumulus/SKILL.md || test -f .codex/skills/cumulus/SKILL.md || test -f .claude/skills/cumulus/SKILL.md
