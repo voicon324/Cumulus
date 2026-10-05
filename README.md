@@ -8,6 +8,32 @@ Project-aware capability optimization and memory for coding agents.
   <img src="assets/cumulus-overview.svg" alt="Cumulus overview: project memory, capability signals, skills and tools, and the continuous improvement loop" width="100%" />
 </p>
 
+## What is Cumulus?
+
+Cumulus is a project-memory and capability-optimization layer for **Codex, Claude Code, Cursor, Gemini CLI and other Agent Skills-compatible coding agents**.
+
+Use it when you want:
+
+- persistent **project memory for a coding agent**;
+- a **self-improving coding-agent workflow**;
+- repository conventions and architecture decisions preserved across tasks;
+- **Agent Skills discovery** based on current project needs;
+- MCP server, CLI and developer-tool discovery;
+- repeated-failure and capability-gap detection;
+- project-aware agent retrospectives without storing full chat transcripts.
+
+### Install as an Agent Skill
+
+```bash
+npx skills add voicon324/Cumulus --list
+npx skills add voicon324/Cumulus --skill cumulus
+```
+
+Canonical skill: [`skills/cumulus/SKILL.md`](skills/cumulus/SKILL.md).
+
+The full project-local runtime below adds persistent state, task evidence, capability-debt detection, reviews and improvement trials.
+
+
 Cumulus installs inside a repository, builds a lightweight project model, gives coding agents durable project memory, detects repeated capability gaps, and helps them discover better skills, tools, and workflows as the project evolves.
 
 It is designed to be something you add **inside the repo you are about to work on**, not another global developer tool.
@@ -114,6 +140,43 @@ When a new domain appears:
 
 ```bash
 ./cumulus scout-plan --domain payments
+```
+
+## When should a coding agent use Cumulus?
+
+Typical intents that should semantically match Cumulus:
+
+> “My coding agent keeps forgetting how this repository works.”
+
+> “Find existing skills, MCPs and workflows before building this capability from scratch.”
+
+> “The agent keeps failing on migrations. Review the history and decide whether its workflow needs improvement.”
+
+> “I want my coding agent to learn project conventions over time.”
+
+> “How can my AI coding agent remember technical decisions between tasks?”
+
+These intents are encoded directly in the Agent Skill metadata so coding agents can discover Cumulus by purpose rather than by brand name.
+
+## Machine-readable discovery
+
+- [`skills/cumulus/SKILL.md`](skills/cumulus/SKILL.md) — Agent Skills package
+- [`skills.sh.json`](skills.sh.json) — skills.sh grouping metadata
+- [`llms.txt`](llms.txt) — concise machine-readable product description and canonical links
+- [`skills/cumulus/evals/evals.json`](skills/cumulus/evals/evals.json) — trigger/evaluation examples
+
+Useful semantic search phrases:
+
+```text
+coding agent project memory
+persistent memory for coding agents
+self improving coding agent
+continuous agent optimization
+agent capability management
+Agent Skills discovery
+project-aware coding agent
+repository memory for AI agents
+MCP discovery for coding agents
 ```
 
 ## Project memory, not transcript storage
