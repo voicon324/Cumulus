@@ -1,5 +1,9 @@
 # Cumulus — Project Memory & Capability Optimization for Coding Agents
 
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-compatible-5b8cff)](skills/cumulus/SKILL.md)
+[![Smoke test](https://github.com/voicon324/Cumulus/actions/workflows/smoke-test.yml/badge.svg)](https://github.com/voicon324/Cumulus/actions/workflows/smoke-test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 **Your coding agent grows with your project.**
 
 Project-aware capability optimization and memory for coding agents.
