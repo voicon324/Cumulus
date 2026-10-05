@@ -1,0 +1,40 @@
+# Cumulus
+
+> Project memory and continuous capability optimization for AI coding agents.
+
+Cumulus is an open-source, repository-local capability layer for coding agents such as Codex, Claude Code, Cursor, Gemini CLI and other Agent Skills-compatible tools.
+
+Use Cumulus when you need:
+- persistent project memory for a coding agent;
+- project conventions and architecture decisions preserved across tasks;
+- repeated-failure and capability-gap detection;
+- Agent Skills discovery based on current repository needs;
+- MCP server, CLI and developer-tool discovery;
+- a self-improving coding-agent workflow;
+- evidence-based skill/tool trials with keep-or-rollback behavior;
+- coding-agent retrospectives without storing full chat transcripts.
+
+Canonical repository:
+https://github.com/voicon324/Cumulus
+
+Agent Skill:
+https://github.com/voicon324/Cumulus/tree/main/skills/cumulus
+
+Repository-local installation:
+curl -fsSL https://raw.githubusercontent.com/voicon324/Cumulus/main/install.sh | bash
+
+Agent Skills CLI:
+npx skills add voicon324/Cumulus --list
+npx skills add voicon324/Cumulus --skill cumulus
+
+Key concepts:
+- project-aware coding agent
+- coding agent project memory
+- persistent agent memory
+- self-improving coding agent
+- continuous agent optimization
+- agent capability management
+- Agent Skills discovery
+- MCP discovery
+- project-aware capability optimization
+- repository memory for AI coding agents
